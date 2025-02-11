@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.email {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0px 70px;
+    background: #192a56;
+    color: whitesmoke;
+
+}
+.email i{
+    font-size: 20px;
+    margin:0px 5px;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+}
+.logo{
+    font-size: 2em;
+    font-weight: bold;
+    flex-basis: 30%;
+    font-family: 'ROBOTO', sans-serif;
+}
+.menu{
+    flex-basis: 70%;
+    text-align: right;
+}
+.menu a{
+    text-decoration: none;
+    color: grey;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.menu a:first-child{
+    color:black;
+}
+.menu a:hover{
+    color:black;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url('images/sofa.jpg');
+    background-size: 100% 100%;
+    position: relative;
+    text-align: center;
+    padding: 7em;
+    box-sizing: border-box;
+
+
+}
+header h1{
+    font-family: 'Courgette' , cursive;
+    font-size: 4em;
+    color: antiquewhite;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+header button{
+    background:#192a56;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    text-align: uppercase;
+    letter-spacing: 5px;
+
+}
+
+#services{
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#services >div{
+    flex-basis: 20%;
+    text-align: center;
+}
+
+#services>div img{
+    width: 50%;
+
+}
+#services p{
+    font-size:20px;
+    margin-top: 10px;
+    color: grey;
+
+
+}
+#quality{
+    padding:50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:rgb(0,0,0,0.02);
+
+}
+#quality>div{
+    flex-basis: 30%;
+    text-align: center;
+}
+#quality> div img{
+    width: 100%;
+    border-radius:8px;
+    padding: 10px;
+    box-shadow: 2px 3px 5px grey;
+}
+#quality p{
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+#featured{
+    padding: 50px 100px;
+    background:#192a56;
+    width: 100%;
+    height:100vh;
+    color: antiquewhite;
+    position: relative;
+
+}
+#featured h1{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Courgette', cursive;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+.featured-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.featured-left-col{
+    flex-basis: 30%;
+    text-align: center;
+}
+.featured-left-col img{
+    width: 70%;
+    background: whitesmoke;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+.featured-right-col{
+    flex-basis: 60%;
+
+}
+.featured-right-col h2{
+    font-size: 30px;
+    font-size: sans-serif;
+
+}
+.featured-right-col p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0px;
+}
+.featured-right-col button{
+    background: whitesmoke;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-transform:uppercase;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+#wave{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+#testimonial{
+    padding:50px 100px;
+    width: 100%;
+
+}
+#testimonial h1{
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+#testimonial h1 span{
+    color:#192a56;
+
+}
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide p{
+
+    background: #192a56;
+    color: antiquewhite;
+    font-size: 2em;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-family: 'ROBOTO' cursive;
+
+  }
+  #Contact{
+      padding: 50px 100px;
+      width: 100%;
+      height: 100vh;
+  }
+  #Contact h1{
+      text-align: center;
+      font-family: '    Courgette', cursive;
+      font-size: 3em;
+      margin-bottom: 1em;
+  }
+  #Contact h1 span{
+      color: #192a56;
+  }
+.Contact-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.Contact-left-col{
+    flex-basis: 50%;
+}
+.Contact-left-col iframe{
+    border-radius: 8px;
+}
+.Contact-right-col{
+    flex-basis: 40%;
+}
+.Contact-right-col h2{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+    font-family: 'Courgette', cursive;
+}
+
+form input[type="text"]{
+    
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+form button{
+    padding: 10px 20px;
+    color: antiquewhite;
+    background: #192a56;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    outline: none;
+
+}
+footer{
+    padding: 50px 100px;
+    background: #192a56;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 30px;
+    cursor:pointer;
+}
+footer h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+footer p{
+    font-family: 'Roboto', sans-serif;
+}
+#particles-js{
+    position: absolute;
+    top: 0;
+    z-index: 100%;
+    width: 100%;
+
+}
+body{
+    background-color: yellow;
+}
